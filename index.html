@@ -1,0 +1,106 @@
+<!DOCTYPE html> <!-- Define que o documento é HTML5 -->
+<html lang="pt-br" class="light"> <!-- Define o idioma da página para português brasileiro -->
+
+<head> 
+
+    <!-- Importa as fontes do Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8"> <!-- Permite acentos e caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade em celular -->
+
+    <title>Personal Profile</title> <!-- Nome da aba do navegador -->
+
+    <link rel="stylesheet" href="./style.css"> <!-- Importa o arquivo CSS externo -->
+</head>
+
+<body> <!-- Onde começa o conteúdo visual -->
+
+    <!-- CONTAINER PRINCIPAL: engloba todo o conteúdo da página -->
+    <div id="container">
+
+        <!-- Caixa onde ficará a foto dentro do círculo -->
+        <div id="box">
+        <img id="profile-img" src="./assets/perfil-dark.png" alt="Foto de apresentação"> <!--alt é o texto alternativo da imagem-->
+        </div>
+
+        <!-- Nome de usuário -->
+        <p>@kelvin01</p>
+
+ <div id="switch" onclick="toggleMode()"> <!-- Div para o botão de alternar tema -->
+
+            <button aria-label="altermar tema claro/escuro"> <!-- Botão para alternar tema -->
+            
+            </button>
+            <span>
+
+        </div>
+        <!-- Lista com os links -->
+        <ul>
+            <!-- Cada item representa um botão de link -->
+            <li>
+                <a href="https://www.linkedin.com/in/kelvinaugustodasilvamoraes" target="_blank" rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/kelvin-dev23" target="_blank" rel="noopener noreferrer">
+                    Portfólio (GitHub)
+                </a>
+
+            </li>
+
+            <li>
+                <a href="https://wa.me/17996665301?text=Olá" target="_blank" rel="noopener noreferrer">
+                    WhatsApp
+                    
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.instagram.com/mnkelvin01?igsh=bHNjaXR5cW84bWtn" target="_blank" rel="noopener noreferrer">
+                    Instagram
+                </a>
+            </li>
+          </ul>
+
+        <!-- Fim da lista de links -->
+
+        <!-- Ícones das redes sociais -->
+    <div id="social-links">
+                                                <!--arial-label é uma descrição para leitores de tela-->
+    <a href="https://www.linkedin.com/in/kelvinaugustodasilvamoraes" aria-label="LinkedIn de kelvin-dev23" target="_blank" rel="noopener noreferrer">
+    <ion-icon name="logo-linkedin"></ion-icon> <!-- Ícone do LinkedIn -->
+    </a>
+
+    <a href="https://github.com/kelvin-dev23" aria-label="github de kelvin-dev23" target="_blank" rel="noopener noreferrer">
+    <ion-icon name="logo-github"></ion-icon> <!-- Ícone do GitHub -->
+    </a>
+
+    <a href="https://wa.me/17996665301?text=Olá" aria-label="WhatsApp de kelvin-dev23" target="_blank" rel="noopener noreferrer">
+    <ion-icon name="logo-whatsapp"></ion-icon> <!-- Ícone do WhatsApp -->
+    </a>
+
+    <a href="https://www.instagram.com/mnkelvin01?igsh=bHNjaXR5cW84bWtn" aria-label="instagram de kelvin-dev23" target="_blank" rel="noopener noreferrer">
+    <ion-icon  name="logo-instagram"></ion-icon> <!-- Ícone do Instagram -->
+    </a>
+
+   </div>
+    
+   </div> <!-- Fecha o container principal -->
+   <footer> 
+    &copy; 2025 Kelvin <a href="https://github.com/kelvin-dev23" target="_blank" rel="noopener noreferrer">Desenvolvedor Front-end</a>. Todos os direitos reservados.
+    </footer>
+
+<!-- Importa os ícones do Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="./script.js"></script> <!-- Importa o arquivo JavaScript externo -->
+
+</body>
+</html>
